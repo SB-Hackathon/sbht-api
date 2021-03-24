@@ -11,7 +11,13 @@ curl "${API}${URL_PATH}" \
     "credentials": {
       "email": "'"${EMAIL}"'",
       "password": "'"${PASSWORD}"'",
-      "password_confirmation": "'"${PASSWORD}"'"
+      "password_confirmation": "'"${PASSWORD}"'",
+      "firstName": "'"${FIRSTNAME}"'",
+      "lastName": "'"${LASTNAME}"'",
+      "zip": "'"${ZIP}"'",
+      "dateOfBirth": "'"${DATEOFBIRTH}"'",
+      "race": "'"${RACE}"'",
+      "gender": "'"${GENDER}"'"
     }
   }'
 
